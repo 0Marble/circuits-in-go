@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/0Marble/circuits-in-go/utils"
+)
 
 func main() {
-	fmt.Println("Hello world!")
+	utils.MyFunc()
 }
